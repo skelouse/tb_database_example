@@ -1,0 +1,8 @@
+id: QmZGQY9GDM4yV3yVmADNFHEBdkjXb2C4ws19k7Vocy2Fzo
+description: This smartops will confirm that the function called is an http function
+tags: []
+source: .
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ""

@@ -1,0 +1,16 @@
+id: QmcNQUmcumusKLuVBkiqUYa6wmeUsi8ByG9DNovdx8851h
+description: ""
+tags:
+    - smartops:confirm_http
+source: libraries/database_handler
+trigger:
+    type: https
+    method: DELETE
+    paths:
+        - /delete
+domains:
+    - database
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: delete

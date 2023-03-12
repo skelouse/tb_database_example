@@ -1,0 +1,12 @@
+id: QmNRhaw1mLaG4Wkn7bwhXiwqWPinixnEZUrB52EpGW2dRv
+description: ""
+tags: []
+match: /test
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 2
+    max: 4
+storage:
+    size: 1GB

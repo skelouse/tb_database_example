@@ -1,0 +1,16 @@
+id: QmfM1TybPwEZMCJ66dFD2tyfDsafXj6no4UCWfQfpQJH9k
+description: ""
+tags:
+    - smartops:confirm_http
+source: libraries/database_handler
+trigger:
+    type: https
+    method: PUT
+    paths:
+        - /set
+domains:
+    - database
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: set
