@@ -1,7 +1,6 @@
 id: QmW5nEbynXSNTDdi8gKjDLntjBSgPcVR3wbmfadYngyULJ
 description: ""
 tags:
-    - smartops:confirm_http
 source: libraries/database_handler
 trigger:
     type: https
