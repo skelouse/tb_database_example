@@ -11,6 +11,6 @@ trigger:
 domains:
     - database
 execution:
-    timeout: 10s
+    timeout: 2s
     memory: 10MB
     call: delete
